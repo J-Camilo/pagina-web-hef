@@ -1,0 +1,50 @@
+
+body
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    background: url("/imagen/x.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div
+{
+    border-radius: 50px;
+    box-sizing: border-box;
+    border-top: white;
+    border-bottom: white;
+    border-left: whitesmoke;
+    border-right: white;
+}
+
+
+.uno
+{
+    text-align: center;
+    color:black; 
+}
+
+p
+{
+    text-align: center;
+}
+
+
+h2
+{
+    text-align: center;
+}
+
+img
+{
+    text-align: center;
+    width: 500px;
+    
+}
+
+.dos
+{
+    color: rgb(96, 105, 91);
+}
