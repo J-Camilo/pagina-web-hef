@@ -4,47 +4,146 @@ body
     text-align: center;
     margin: 0 auto;
     width: 1200px;
-    background: url("/imagen/x.jpg");
+    background: url("/imagen/xx.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
-div
+.body2{
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    background: url("/imagen/n.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.body3{
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    background: url("/imagen/xxx.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.body4{
+    
+    
+    width: 1200px;
+    background: url("/imagen/n.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    margin-top: 50px;
+}
+
+#fondo-header h1{
+    color: cornsilk;
+}
+
+form{
+    margin-top: 50px;
+    font-style: normal;
+    color:bisque;
+    border-radius:initial;
+}
+
+footer{
+    margin-bottom: 70px;
+}
+
+nav
 {
+    height: 80px;   
+    background: #b7bbbd;
+    margin: 20px 0;
+
+}
+nav ul{
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+nav ul li{
+    display: inline; /*Pone todos los elementos en la misma línea*/
+    list-style: none;   /*Quita las viñetas de la lista*/
+}
+nav ul li a{
+    text-decoration: none;  /*Quita el subrayado de los enlaces*/
+    color: #8a9194;
+    background:#FFF;
+    line-height: 80px;
+    padding:7px;
+    margin:0 20px;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px #333; /*Añade sombra al contenedor*/
+    font-weight: bold;
+}
+nav ul li a:hover{   /*Cambia el contenedor al pasar el mouse por encima*/
+    color: #FFF;
+    background: #000;
+    box-shadow: 0 0 0 #000;
+}
+section{
+    padding:0 30px 20px;
+}
+section div{
+    text-align: center;
+}
+section div img{
+    width: 500px; /*ancho de imagen*/
+    margin: 20px;
+}
+
+
+
+
+div{
     border-radius: 50px;
-    box-sizing: border-box;
-    border-top: white;
-    border-bottom: white;
-    border-left: whitesmoke;
-    border-right: white;
-}
-
-
-.uno
-{
-    text-align: center;
-    color:black; 
-}
-
-p
-{
-    text-align: center;
-}
-
-
-h2
-{
-    text-align: center;
-}
-
-img
-{
-    text-align: center;
-    width: 500px;
     
 }
 
-.dos
-{
-    color: rgb(96, 105, 91);
+
+.uno{
+    text-align: center;
+    color: rgb(174, 184, 169);
 }
+
+p{
+    text-align: center;
+    color: rgb(174, 184, 169);
+}
+
+.tittle{
+    margin-top: 50px;
+}
+
+.genero{
+    color:rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    color: rgb(174, 184, 169);
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    color: rgb(174, 184, 169);
+}
+
+img{
+    text-align: center;
+    width: 500px; 
+}
+
+.dos{
+    color: rgb(174, 184, 169);
+}
+
+
+		
