@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: #fd2e5c;
+    border-radius: 30px ;
+    color: white;
+    border: none;
+    font-size: 23px;
+    margin: 20px;
+    padding: 17px;
+}
+
+button:hover{
+    background-color: black;
+    border-radius: 30px ;
+    color: white;
+    border: none;
+    font-size: 23px;
+    margin: 20px;
+    padding: 17px;
+}
+
+span{
+    background: #ccc;
+    background: linear-gradient(90deg, #ff9900, rgb(171, 0, 187));
+    font-family:system-ui;
+    font-size: 3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+hr{
+    color: black;
+}
+
+
+
+/* contenedores */
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align:right;
+}
+
+
+ 
+/* centar */
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centrado2{
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+
+
+
+/* imagenes */
+
+.angel{
+    height: 1072px;
+}
+
+.john{
+    height: 785px;
+}
+
+
+
+/* textos */
+
+.textoprincipal{
+    font-size: 150px;
+    color: white;
+    margin: -86px 171px 42px 266px;
+}
+
+.textofinal1{
+    font-size: 90px;
+    color: white;
+}
+
+.textofinal{
+    color: white;
+    font-size: 17px;
+}
+
+.texto{
+    font-size: 14px;
+}
+
+/* imagenes */
+
+.floatleft{
+    float: left;
+    height: 550px;
+    margin: 0px 70px 0px 0px;
+}
+
+.floatright{
+    float:left;
+    height: 550px;
+    margin-left: 100px;
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+
+
+.margen{
+    margin: 150px 400px 60px ;
+}
+
+
+/* tabla */
+td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+}
+
+p {
+    font-size: 11px;  
+    line-height: 1.333333334;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+
+.columnas {
+    
+    -webkit-column-count: 4; 
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+
+.derecha{
+    text-align: right;
+    color: white;
+}
+
+.cajontextos{
+    float: left;
+    width: 455px;
+    
+}
+
+
+
+.cajontextos2{
+    width: 455px;
+    margin-left: 504px;
+    margin-right: 137px;
+}
+
+
+/* pie de pagina */
+
+footer{
+    background: linear-gradient(90deg,#fd2e5c, #ff194b);
+    font-family:system-ui;
+    font-size: 12px;
+    margin-top: -5px ;
+    color: white;
+    padding: 20px 104px;
+    width: 1695px;
+}
+
+.correo{
+    text-align: right;
+    margin: -17px 0 0 0;
+}
+
+.nombre{
+    text-align: left;
+    width: 400px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1400px){
+    .angel {
+        height: 760px;
+    }
+
+    .john {
+        height: 556px;
+    }
+
+    footer {
+        width: 1140px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .texto{
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 2rem;
+        
+    }
+
+    button {
+        font-size: 13px;
+    }
+
+    button:hover{
+        font-size: 13px;
+
+    }
+
+    .margen {
+        margin: 150px 180px 60px;
+    }
+
+    .textofinal1 {
+        font-size: 60px;
+    }
+
+    span{
+        font-size: 3rem;
+    }
+     
+    .textofinal{
+        font-size: 15px;
+    }
+
+    footer{
+        font-size: 22px;
+        margin-top: -4px;
+    }
+
+    .correo{
+        margin-right: px;
+        
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+  
+    img.angel {
+        width: 1558px;
+        height: 896px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    span{
+        font-size: 2.5rem;
+    }
+
+    .john {
+        height: 642.5px;
+    }
+
+    footer {
+        width: 1350px;
+    }
+
+    .margen {
+        margin: 150px 275px 60px;
+    }
+
+    .textoprincipal {
+        font-size: 150px;
+    }
+
+    .textofinal1 {
+        font-size: 60px;
+    }
+
+    .textofinal {
+        font-size: 24px;
+    }
+
+    .texto{
+        font-size: 24px;
+    }
+
+    .floatright{
+        float:left;
+        height: 550px;
+        margin-left: 600px;
+        margin-top: -550px;
+    }
+
+    button{
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    button:hover{
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+
+    
+
+@media screen and (max-width: 576px){
+    .angel {
+        width: 1558px;
+        height: 896px;
+    }
+    h2{
+        font-size: 80px;
+    }
+    span{
+        font-size: 5rem;
+    }
+
+    .john {
+        height: 642.5px;
+    }
+
+
+    footer{
+        font-size: 27px;
+        
+    }
+
+    .margen {
+        margin: 150px 275px 60px;
+    }
+
+    .textoprincipal {
+        font-size: 134px;
+    }
+
+    .contenedor2{
+        position: relative;
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    .textofinal1 {
+        font-size: 60px;
+    }
+
+    .textofinal {
+        font-size: 28px;
+    }
+
+    .texto{
+        font-size: 40px;
+    }
+
+    .cajontextos{
+        float: left;
+        width: 1000px;
+        
+    }
+
+    .floatright{
+        float:left;
+        height: 1150px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .cajontextos2{
+        float: left;
+        width: 1000px;
+        margin-left: 40px;
+    }
+    .floatleft{
+        float:left;
+        height: 1150px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    button{
+        font-size: 30px;
+        margin: 10px;
+        padding: 18px;
+        margin-top: 10px;
+    }
+    
+    button{
+        font-size: 30px;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    button:hover{
+        font-size: 30px;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+}
+}
