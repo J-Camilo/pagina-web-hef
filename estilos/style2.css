@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/*--------------------- inicio --------------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color:rgb(38, 38, 42);
+    margin-top: -20px;
+    margin-left: -10px;
+    width: 1351px;
+    height: 125px;
+}
+
+h1{
+    margin-left:90px;
+    font-size: 40px;
+    margin-top: 40px;
+    color: white;
+}
+span{
+    margin-right: 200px;
+    color: rgb(75, 75, 243);
+    font-size: 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 90px;
+    margin-top: 60px;
+}
+
+div{
+    display: flex;
+    justify-content:space-between;
+}
+
+hr{
+    width: 1348px;
+    height: 3.3px;
+    margin-top: -1px;
+    margin-left: -8px;
+    background-color: rgb(43, 110, 233);
+}
+
+/* textos menu */
+
+.texto_color1{
+    color: rgb(58, 109, 250);
+}
+
+/*  textos */
+
+.texto_final{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(79, 125, 250);
+    padding: 30px;
+    width: 1289px;
+    margin-left: -8px;
+
+}
+
+.texto_final1{
+    color:white;
+
+}
+
+.texto-inicial{
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+
+.texto-inicial1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+}
+
+.texto-inicial1-{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 16px;
+   
+}
+
+.texto-inicial2{
+    color: rgb(255, 255, 255);
+    margin-left: -90px;
+}
+
+
+.texto-inicial3{
+    color: rgb(5, 5, 5);
+    margin-left: 16px;
+    margin-top: -40px;
+}
+
+.texto-inicial4{
+    color: rgb(5, 5, 5);
+    margin-left: 25px;
+    margin-top: -89px;
+}
+
+
+/* imagen */
+
+
+/* cajones */
+
+.cajon_1{
+    background-color: rgb(38, 38, 42);
+    color: white;
+    padding: 17px;
+    width: 1315px;
+    margin: 0px;
+    margin-top: -9px;
+    margin-left: -8px;
+    font-size: 23px;
+}
+.cajon1{
+    margin-left: 150px;
+}
+.boton{
+    border: none;
+    height: 38px;
+    width: 120px;
+    margin-top: 16px;
+    margin-left: -370px;
+    margin-right: 100px;
+    background-color: rgb(233, 92, 10);
+    color: white;
+}
+.correo{
+    margin-top: 17px;
+    height: 30px;
+    width: 260px;
+}
+
+
+.cajon2{
+    background-color: rgb(235, 235, 235);
+    padding: 4px;
+    width: 600px;
+    height: 85px;
+}
+
+.cajon3{
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+    margin-left: 100px;
+
+}
+
+.cajon4{
+    background-color: rgb(33, 35, 47);
+    padding: 10px;
+    width: 372px;
+    height: 203px;
+    margin-left: 866px;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* tamaños  */
+    
+    nav{ 
+        width: 102.5%;
+        height: 170px;
+    }
+
+    span {
+        margin-right: 111px;
+        font-size: 40px;
+    }
+
+    a{
+        font-size: 17px;
+        margin-right: 72px;
+        margin-top: 78px;
+        margin-left: -22px;
+    }
+
+    h1 {
+        margin-left: 37px;
+        
+    }
+
+    hr{
+        width: 102.2%;
+    }
+
+    .texto_final {
+        width: 94.7%;
+    }
+    
+    /* imagenes */
+
+    .foto1{
+        width: 102.5%;
+        height: 500px;
+        margin-left: -10px;  
+    }
+
+    .cajon1 {
+        margin-left: 22px;
+
+    }
+
+    .cajon_1 {
+        color: white;
+        padding: 9px;
+        width: 100%;
+        margin-top: -9px;
+    }
+
+    .boton {
+        margin-top: 16px;
+        margin-left: -325px;
+        margin-right: 17px;
+    }
+
+    .correo {
+        height: 30px;
+        width: 227px;
+        margin-left: -241px;
+    }
+
+    /*-------------------------------------*/
+
+    .cajon3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 13px;
+        margin-left: 100px;
+    }
+    
+    .cajon4 {
+        padding: 10px;
+        width: 625px;
+        height: 159px;
+        margin-left: 79px;
+        margin-top: 22px;
+    }
+
+    .texto_final {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* tamaños  */
+    h1 {
+        display: flex;
+        margin-left: 100px;
+        margin-right: -401px;
+        margin-top: 55px;
+        font-size: 48px;
+    }
+    span {
+        margin-right: 111px;
+        font-size: 48px;
+    }
+
+    nav {
+        width: 103.5%;
+        height: 192px;
+    }
+
+    hr {
+        width: 103%;
+    }
+
+    a {
+        font-size: 20px;
+        margin-right: 131px;
+        margin-top: 121px;
+        margin-left: -112px;
+    }
+
+    .cajon1 {
+        margin-left: 22px;
+        font-size: 16px;
+    }
+
+    .correo {
+    height: 21px;
+    width: 175px;
+    margin-left: -241px;
+    margin-top: 11px;
+    }
+
+    .boton {
+        border: none;
+        height: 29px;
+        width: 78px;
+        margin-top: 10px;
+        margin-left: -292px;
+        background-color: rgb(233, 92, 10);
+        color: white;
+        margin-right: 7px;
+    }
+
+    .texto_final {
+        width: 92.1%;
+        margin-top: -14px;
+        font-size: 24px;
+    }
+
+    /*----------------------------*/
+    .cajon2 {
+        padding: 4px;
+        width: 523px;
+        height: 155px;
+    }
+
+    .cajon3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+        margin-left: 15px;
+    }
+
+    .cajon4 {
+        padding: 10px;
+        width: 514px;
+        height: 338px;
+        margin-left: 12px;
+        margin-top: 27px;
+    }
+
+    .texto-inicial {
+        font-size: 226%;
+    }
+
+    .texto-inicial1- {
+        font-size: 30px;
+        margin-left: 16px;
+    }
+
+    .texto-inicial1 {
+        font-size: 30px;
+        margin-left: 16px;
+    }
+
+    .texto-inicial2 {
+        margin-left: -140px;
+        font-size: 25px;
+    }
+
+    .texto-inicial3 {
+        margin-left: 16px;
+        margin-top: -68px;
+        font-size: 26px;
+    }
+
+
+    .texto-inicial4 {
+        margin-left: 25px;
+        margin-top: -88px;
+        font-size: 27px;
+    }
+
+    
+}
